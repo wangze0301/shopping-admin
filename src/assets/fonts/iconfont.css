@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('./iconfont.ttf?t=1627527927322') format('truetype');
+  src: url('iconfont.ttf?t=1627536577686') format('truetype');
 }
 
 .iconfont {
@@ -17,5 +17,25 @@
 
 .icon-icon-user:before {
   content: "\e63c";
+}
+
+.icon-icon-test:before {
+  content: "\e60b";
+}
+
+.icon-dingdan:before {
+  content: "\e6ad";
+}
+
+.icon-quanxian:before {
+  content: "\e7ae";
+}
+
+.icon-yonghu:before {
+  content: "\e6fe";
+}
+
+.icon-shangpin:before {
+  content: "\f0fb";
 }
 
