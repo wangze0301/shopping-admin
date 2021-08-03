@@ -52,7 +52,7 @@
           </template>
         </el-table-column>
         <el-table-column label="操作">
-          <template slot-scope="scope">
+          <template>
             <el-button
               size="mini"
               type="primary"
@@ -166,7 +166,6 @@ export default {
       }
       this.orderList = res.data.goods
       this.total = res.data.total
-      console.log(res.data)
     },
     handleSizeChange(newSize) {
       this.queryInfo.pagesize = newSize

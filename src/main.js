@@ -26,6 +26,7 @@ Vue.config.productionTip = false;
 Vue.component("tree-table", TreeTable);
 Vue.use(VueQuillEditor)
 Vue.use(ElementUI);
+
 Vue.filter("dateFormat", function(originVal) {
     const dt = new Date(originVal);
     const y = dt.getFullYear();
